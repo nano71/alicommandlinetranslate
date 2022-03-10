@@ -1,9 +1,9 @@
 {
   "name": "alicommandlinetranslate",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "description": "阿里命令行翻译器",
   "bin": {
-    "fy": "dist/main.js"
+    "t": "dist/main.js"
   },
   "repository": {
     "type": "git",
