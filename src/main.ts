@@ -8,7 +8,7 @@ import Client from "./client";
 program
     .version(version)
     .argument("<text>", "输入")
-    .name("fy")
+    .name("t")
     .option("-s --source <string>", "源文语言")
     .option("-t --target <string>", "译文语言")
     .action(async (text, option) => {
@@ -36,8 +36,8 @@ program.on("--help", () => {
 const giveDestExamples = () => {
     console.info("-------------------");
     console.info("使用方法:");
-    console.info("  $ fy 你好");
-    console.info("  $ fy hello -l zh");
+    console.info("  $ t 你好");
+    console.info("  $ t hello -l zh");
     console.info("-------------------");
     console.info("-s <源文语言> -t <译文语言> 值可为:");
     console.info({
