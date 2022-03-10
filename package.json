@@ -1,0 +1,35 @@
+{
+  "name": "alicommandlinetranslate",
+  "version": "0.0.9",
+  "description": "阿里命令行翻译器",
+  "bin": {
+    "fy": "dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nano71/aliCommandLineTranslate.git"
+  },
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/client.ts"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "author": "nano71",
+  "dependencies": {
+    "@alicloud/alimt20181012": "^1.0.3",
+    "@alicloud/openapi-client": "^0.4.1",
+    "@alicloud/tea-console": "^1.0.0",
+    "@alicloud/tea-typescript": "^1.7.2",
+    "@alicloud/tea-util": "^1.4.2",
+    "commander": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nyc": "^15.1.0",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^8.10.2"
+  }
+}
